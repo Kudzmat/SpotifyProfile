@@ -2,42 +2,153 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width">
   <title>Kudz joins the band!</title>
   <link rel="stylesheet" href="band.css">
+  <!-- Add the Bootstrap CSS link here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
   <style>
-    /* Add responsive CSS here */
-    @media (max-width: 768px) {
-      .left, .right-col {
-        width: 100%;
-      }
-      
-      .column-box {
-        width: 50%;
-      }
-    }
-  </style>
+  .smaller-image {
+    max-width: 200px; /* Adjust the value to your desired size */
+  }
+</style>
+
 </head>
 <body id="background">
   <header>
     <div class="hero">
-      <div class="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img id="screenshot" src="spotify.jpeg" alt="spotify logo">
         <h1>#KudzayiJoinsTheBand!</h1>
-      </div>
+      </nav>
     </div> 
   </header>
-  <div class="left">
-    <p>Hey Spotify, I created this (less formal) page just for you. Here's the thing, the vibes at Spotify are immaculate, you guys can't just let anyone into the band! So I interviewed with myself to gather some answers to the important questions:</p>
-    <!-- Rest of the content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+         <p>Hey Spotify, I created this (less formal) page just for you. Here's the thing, the vibes at Spotify are immaculate, you guys can't just let anyone into the band! So I interviewed with myself to gather some answers to the important questions:</p>
+         <ul>
+           <li>Do I have any real-life "band" experience?
+            <p>Yes! I was in a rap group called RCK (Rap Chronic Kings lol) back in high school. We only released one(1) EP, our peers loved it, I'd even call it "critically acclaimed."</p>
+           </li>
+           <li>Any podcasts that I listen to on Spotify?
+            <p>Yup, I usually listen to podcasts when I'm preparing dinner or on the treadmill. My favourites are Laker Film Room, Nintendo VoiceChat and The Mismatch with Kevin O'Connor and Chris Vernon.</p>
+           </li>
+           <li>Who's an artist I've discovered through Spotify? 
+            <p>I feel like I discover a new artist every day on Spotify, that algorithm is incredible! I hope to get to write some code on it someday.... But to answer your question - Unknown Mortal Orchestra</p>
+          </li>
+           <li>I'm in a karaoke showdown, What's my go-to song? 
+            <p>Candy Rain by Soul For Real.</p> 
+          </li>
+           <li>Top 3 artists I would most like to see perform live? 
+            <p>Wow, there are so many I could mention! But off the top of my head - Toro Y Moi, Frank Ocean, and Tinashe.</p>
+          </li>
+         </ul>
+      </div>
+      <div class="col-md-6">
+        <img id="profile" src="myPic.JPG" alt="picture of me"/>
+      </div>
+    </div>
+     <div></div>
+    <div>
+      <h2>Comfort Albums</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-5">
+      <div class="col mb-4">
+        <a href="https://open.spotify.com/album/392p3shh2jkxUxY2VHvlH8">
+          <img class="img-fluid screenshot smaller-image" src="frank.jpeg" alt="Channel Orange thumbnail">
+          <p>Frank Ocean</p>
+          <p>Channel Orange</p>
+        </a>
+      </div>
+
+        <!-- next album -->
+        <div class="col mb-4">
+        <a href="https://open.spotify.com/album/2ZUFSbIkmFkGag000RWOpA">
+          <img class="img-fluid screenshot smaller-image" src="nwts.jpeg" alt="nwts thumbnail">
+          <p>Drake</p>
+          <p>Nothing Was The Same</p>
+        </a>
+      </div>
+
+        <!-- next album -->
+        <div class="col mb-4">
+        <a href="https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL">
+          <img class="img-fluid screenshot smaller-image" src="tame.jpeg" alt="Slow Rush thumbnail">
+        <p>Tame Impala</p>
+        <p>The Slow Rush</p>
+        </a>
+      </div>
+
+        <!-- next album -->
+        <div class="col mb-4">
+        <a href="https://open.spotify.com/album/4Rvzx3X6hcDb7nty1IzVP4">
+          <img class="img-fluid screenshot smaller-image" src="dream.jpeg" alt="Kaleidoscope Dream thumbnail">
+        <p>Miguel</p>
+        <p>Kaleidoscope Dream</p>
+        </a>
+      </div>
+
+        <!-- next album -->
+        <div class="col mb-4">
+        <a href="https://open.spotify.com/album/0UMMIkurRUmkruZ3KGBLtG">
+          <img class="img-fluid screenshot smaller-image" src="forest.jpeg" alt="Forest Hills Drive thumbnail">
+        <p>J Cole</p>
+        <p>2014 Forest Hills Drive</p>
+        </a>
+      </div>
+    </div>
+    
+    <div>
+      <h2>Fun Live Shows</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-5">
+      
+      <div class="col mb-4">
+        <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg">
+          <img class="img-fluid rounded-circle" src="kdot.jpeg" alt="Kendrick Lamar">
+          <p>Kendrick Lamar</p>
+        </a>
+      </div>
+
+       <div class="col mb-4">
+        <a href="https://open.spotify.com/artist/7bXgB6jMjp9ATFy66eO08Z">
+          <img class="img-fluid rounded-circle" src="cb.jpeg" alt="Chris Brown">
+          <p>Chris Brown</p>
+        </a>
+      </div>
+
+        <div class="col mb-4">
+        <a href="https://open.spotify.com/artist/2auiVi8sUZo17dLy1HwrTU">
+          <img class="img-fluid rounded-circle" src="solange.jpeg" alt="Solange">
+          <p>Solange</p>
+        </a>
+      </div>
+
+         <div class="col mb-4">
+        <a href="https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5">
+          <img class="img-fluid rounded-circle" src="cole.jpeg" alt="J Cole">
+          <p>J Cole</p>
+        </a>
+      </div>
+
+            <div class="col mb-4">
+        <a href="https://open.spotify.com/artist/360IAlyVv4PCEVjgyMZrxK">
+          <img class="img-fluid rounded-circle" src="miguel.jpeg" alt="Miguel">
+          <p>Miguel</p>
+        </a>
+      </div>
+    </div>
+    <footer class="py-3 text-center border-top">
+      <p>DEVELOPED BY KUDZAYI BAMHARE 2023</p>
+    </footer>
   </div>
-  <div class="right-col">
-    <img id="profile" src="myPic.JPG" alt="picture of me"/>
-  </div>
-  <!-- Rest of the content -->
-  <footer class="foot border-top">
-    <p>DEVELOPED BY KUDZAYI BAMHARE 2022</p>
-  </footer>
+  <!-- Add the Bootstrap JS link here -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
+</html>
+
+
 </html>
 
